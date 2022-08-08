@@ -1,0 +1,145 @@
+/* |DAY 2| Here I am adding styles for my main pages */
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 10px;
+
+}
+
+.profile2 {
+    border-radius: 10px;
+    border-image-width: 10%;
+}
+
+#Welcome {
+
+    position: absolute;
+    color: #FFFFFF;
+    top:50px;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+
+/* |DAY 2| Here I am adding styles for text */
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+/*|DAY 3| Here I am using the fonts I imported*/
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    height:30px;
+    border-image: round;
+}
+
+
+
+.menu {
+    border-radius: 10px;
+    position: fixed;
+    background: #60ebeb;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    height: 1.34cm;
+}
+
+/*|Day 4| Here I am Styling the top navigator*/
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family:'Courier New';
+    font-size: 35px
+}
+
+
+
+.links:hover {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.article:hover {
+    color:fuchsia;
+}
+
+
+#writings a
+{
+text-shadow: none !important;
+text-decoration: underline !important;
+color: blue !important;
+}
+
+#contact
+{
+background: firebrick;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
